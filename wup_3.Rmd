@@ -32,6 +32,9 @@ basicCN + geom_boxplot()
   
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
 
 ## Inferential Tests
 
