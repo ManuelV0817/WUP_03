@@ -54,3 +54,6 @@ The graph shows that there is a lot of difference between the middle and the bac
 
 
 
+
+
+During this exercise we found out that when comparing more than 2 variables, its best to compare each variable tp each other variable for the best results. Things get more complicated the more variables you have as there's more numbers you need to compare. The most drinks were had in the back with the median being very different compared to the front and middle seats that had a lower median. However the front and middle were seen to have similar numbers.
