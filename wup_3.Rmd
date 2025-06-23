@@ -44,6 +44,10 @@ summary.aov(model1)
 
 Running the model shows that the probability of people drinking the same in the front and the middle compared to the back was 0.000116. So there's a significant difference between how much they drink.
 
+```{r}
+plot(TukeyHSD(model1))
+```
 ## Conclusions
+
 
 
