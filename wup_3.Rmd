@@ -28,10 +28,9 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+  Based off the box plot the median of people who sit in the back consume more alcohol than the third quartile of both people in the front and  middle.
   
-### get fancy  
-
-```{r}
+  ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
