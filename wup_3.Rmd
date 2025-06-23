@@ -47,6 +47,9 @@ Running the model shows that the probability of people drinking the same in the 
 ```{r}
 plot(TukeyHSD(model1))
 ```
+
+The graph shows that there is a lot of difference between the middle and the back, and the front with the back. They don't have 0 in their confidence interval. It shows the middle and the front do have 0 which means they have similarities. The back is different from everybody else.
+
 ## Conclusions
 
 
